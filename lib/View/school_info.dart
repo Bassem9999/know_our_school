@@ -11,6 +11,7 @@ class SchoolInfo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    void eat(){}
     return ChangeNotifierProvider(
       create: ((context) => SchoolViewModel()),
       child: Scaffold(

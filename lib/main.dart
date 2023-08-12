@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
 
     void play(){
-      print("eat");
+      print("play");
+      print("play");
     }
     
     return MaterialApp(

@@ -12,7 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    void play(){}
+    void play(){
+      print("eat");
+    }
     
     return MaterialApp(
       title: 'know our school',
